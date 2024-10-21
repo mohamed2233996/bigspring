@@ -1,16 +1,14 @@
-import localFont from "next/font/local";
 import "./globals.css";
+import Header from "@/components/header";
+import { Oxygen } from 'next/font/google'
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+const oxygen = Oxygen({
+  subsets: ['latin'],
+  weight: ['300', '400', '700'],
+  display: 'swap',
+  variable: '--font-oxygen',
+  href: 'https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap',
+})
 
 export const metadata = {
   title: "Create Next App",
@@ -20,9 +18,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${oxygen.className} dark:bg-gray-800 dark:text-white antialiased`}>
+        <Header />
         {children}
       </body>
     </html>
