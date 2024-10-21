@@ -119,7 +119,7 @@ const Header = () => {
                             )
                         } else {
                             return (
-                                <li key={link.kay}>
+                                <li key={kay}>
                                     <a
                                         href={link.href}
                                         className="block"
