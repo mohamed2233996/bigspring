@@ -1,9 +1,11 @@
 const links = [
     {
+        kay : 1,
         text: "Home",
         href: "/",
     },
     {
+        kay : 2,
         text: "Company",
         href: "/",
         subLinks: [
@@ -14,6 +16,7 @@ const links = [
         ],
     },
     {
+        kay : 3,
         text: "Products",
         href: "/Products",
         subLinks: [
@@ -89,6 +92,7 @@ const links = [
         ],
     },
     {
+        kay:4,
         text: "Blog",
         href: "/Blog",
         subLinks: [
@@ -97,6 +101,7 @@ const links = [
         ],
     },
     {
+        kay:5,
         text: "Pages",
         href: "/Pages",
         subLinks: [
