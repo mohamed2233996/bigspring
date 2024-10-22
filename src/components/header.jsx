@@ -98,7 +98,7 @@ const Header = () => {
                         console.log(link)
                         if (link.subLinks) {
                             return (
-                                <Dropdown label={link.text} key={kay} inline dismissOnClick={false}>
+                                <Dropdown label={link.text} inline dismissOnClick={false}>
                                     {link.subLinks.map((subLink, key) => (
                                         <Dropdown.Item key={key} href={subLink.href}>
                                             {subLink.label.text ? (
@@ -119,7 +119,7 @@ const Header = () => {
                             )
                         } else {
                             return (
-                                <li key={link.href}>
+                                <li key={kay}>
                                     <a
                                         href={link.href}
                                         className="block"
