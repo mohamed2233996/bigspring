@@ -32,7 +32,7 @@ const Header = () => {
             setTheme('dark');
         }
     }
-    
+
     const toggleMenu = () => {
         setMenuopened(!menuopened)
     }
@@ -41,7 +41,7 @@ const Header = () => {
         <Navbar fluid rounded>
             <Navbar.Brand href="">
                 <Image src={
-                    theme === 'dark'? logoDark : logo
+                    theme === 'dark' ? logoDark : logo
                 } width={180} className="mr-3 sm:h-9" alt="Logo" />
             </Navbar.Brand>
             <div className="flex lg:order-2 space-x-3 lg:space-x-0 gap-3">
@@ -90,32 +90,33 @@ const Header = () => {
                 </button>
             </div>
             <div
-                className={`${menuopened? "":"hidden"} items-center justify-between w-full lg:flex lg:w-auto lg:order-1`}
+                className={`${menuopened ? "" : "hidden"} items-center justify-between w-full lg:flex lg:w-auto lg:order-1`}
                 id="navbar-sticky"
             >
                 <ul className="flex flex-col items-center gap-2 p-4 lg:p-0 mt-4 lg:space-x-8 lg:flex-row lg:mt-0 navLink">
-                    {links?.map((link , kay) => {
-                        console.log(link)
+                    {links?.map((link, kay) => {
                         if (link.subLinks) {
                             return (
-                                <Dropdown label={link.text} inline dismissOnClick={false}>
-                                    {link.subLinks.map((subLink, key) => (
-                                        <Dropdown.Item key={key} href={subLink.href}>
-                                            {subLink.label.text ? (
-                                                <div className='flex flex-row items-center justify-center gap-2'>
-                                                    <span>
-                                                        {subLink.label?.svg}
-                                                    </span>
-                                                    <div>
-                                                        <span>{subLink.label.text}</span>
-                                                        <p className="text-xs text-gray-500 dark:text-gray-400">{subLink.label.p}</p>
-                                                    </div>
-                                                </div>) : (
-                                                subLink.label
-                                            )}
-                                        </Dropdown.Item>
-                                    ))}
-                                </Dropdown>
+                                <li kay ={kay}>
+                                    <Dropdown label={link.text} inline dismissOnClick={false}>
+                                        {link.subLinks.map((subLink, key) => (
+                                            <Dropdown.Item key={key} href={subLink.href}>
+                                                {subLink.label.text ? (
+                                                    <div className='flex flex-row items-center justify-center gap-2'>
+                                                        <span>
+                                                            {subLink.label?.svg}
+                                                        </span>
+                                                        <div>
+                                                            <span>{subLink.label.text}</span>
+                                                            <p className="text-xs text-gray-500 dark:text-gray-400">{subLink.label.p}</p>
+                                                        </div>
+                                                    </div>) : (
+                                                    subLink.label
+                                                )}
+                                            </Dropdown.Item>
+                                        ))}
+                                    </Dropdown>
+                                </li>
                             )
                         } else {
                             return (

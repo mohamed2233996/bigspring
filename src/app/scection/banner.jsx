@@ -2,7 +2,6 @@
 import React from 'react';
 import bannerImg from "@/imges/banner.svg"
 import Image from 'next/image';
-import Carousel from 'react-multi-carousel';
 import img1 from '@/imges/1.webp'
 import img2 from '@/imges/2.webp'
 import img3 from '@/imges/3.webp'
