@@ -94,11 +94,11 @@ const Header = () => {
                 id="navbar-sticky"
             >
                 <ul className="flex flex-col items-center gap-2 p-4 lg:p-0 mt-4 lg:space-x-8 lg:flex-row lg:mt-0 navLink">
-                    {links?.map((link) => {
+                    {links?.map((link , kay) => {
                         console.log(link)
                         if (link.subLinks) {
                             return (
-                                <Dropdown label={link.text} inline dismissOnClick={false}>
+                                <Dropdown label={link.text} key={kay} inline dismissOnClick={false}>
                                     {link.subLinks.map((subLink, key) => (
                                         <Dropdown.Item key={key} href={subLink.href}>
                                             {subLink.label.text ? (

@@ -64,24 +64,11 @@ const Banner = () => {
                 <Image src={bannerImg} width={750} height={395} alt='bannerImg' />
                 <p className='my-4 text-lg font-bold '>Let us solve your critical website development challenges</p>
                 <div className='mt-16'>
-                    <Carousel
-                    responsive={responsive}
-                    showDots={false}
-                    infinite={true}
-                    autoPlay={true}
-                    autoPlaySpeed={1000}
-                    keyBoardControl={true}
-                    customTransition="all .5"
-                    transitionDuration={500}
-                    containerClass="w-full"
-                    
-                    >
                         {carouselImgs.map((img, index) => (
                             <div key={index}>
                                 <Image src={img.img} width={250} height={150} alt={img.alt} />
                             </div>
                         ))}
-                    </Carousel>
                 </div>
 
             </div>
