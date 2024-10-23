@@ -9,7 +9,16 @@ import img4 from '@/imges/4.webp'
 import img5 from '@/imges/5.webp'
 import img6 from '@/imges/6.webp'
 
+// import { Swiper, SwiperSlide } from 'swiper/react';
+// import { Autoplay} from 'swiper/modules';
+
+import 'swiper/css';
+
+
+
+
 const Banner = () => {
+
     const carouselImgs = [
         {
             img: img1,
@@ -63,11 +72,37 @@ const Banner = () => {
                 <Image src={bannerImg} width={750} height={395} alt='bannerImg' />
                 <p className='my-4 text-lg font-bold '>Let us solve your critical website development challenges</p>
                 <div className='mt-16'>
+                    {/* <Swiper
+                        slidesPerView={"auto"}
+                        autoplay={{
+                            delay: 2500,
+                            speed: 1000,
+                            disableOnInteraction: false,
+                            loop: true
+                        }}
+                        breakpoints={{
+                            640: {
+                                slidesPerView: 2,
+                                spaceBetween: 20,
+                            },
+                            768: {
+                                slidesPerView: 4,
+                                spaceBetween: 40,
+                            },
+                            1024: {
+                                slidesPerView: 5,
+                                spaceBetween: 50,
+                            },
+                        }}
+                        className="mySwiper"
+                        modules={[Autoplay]}
+                    >
                         {carouselImgs.map((img, index) => (
-                            <div key={index}>
-                                <Image src={img.img} width={250} height={150} alt={img.alt} />
-                            </div>
+                            <SwiperSlide>
+                                <Image key={index} src={img.img} width={250} height={150} alt={img.alt} />
+                            </SwiperSlide>
                         ))}
+                    </Swiper> */}
                 </div>
 
             </div>

@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --primary: #0aa8a7;
 }
@@ -26,4 +27,22 @@ body {
 .navLink li:hover a,
 .navLink button:hover {
   color: var(--primary)
+}
+
+.playBtn:hover>span{
+  width: 100%;
+  height: 100%;
+}
+
+.playBtn:hover>span>svg{
+  background-color: white;
+  color: var(--primary);
+  border-radius: 100%;
+  padding: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+.playBtn:hover{
+  background-color: var(--primary);
 }
