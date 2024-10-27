@@ -38,7 +38,7 @@ const Header = () => {
     }
 
     return (
-        <div className ="sticky top-0">
+        <div className ="sticky z-50 top-0">
             <Navbar fluid rounded>
                 <Navbar.Brand href="">
                     <Image src={
