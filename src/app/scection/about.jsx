@@ -9,7 +9,7 @@ const About = () => {
             bg: "bg-themeLight dark:bg-themeDark",
             title: 'It is the most advanced digital marketing company.',
             text: "Adipiscing elit Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat.",
-            order:false,
+            order:true,
             ImgCarousel: true,
             CarouselImges: [
                 { src: AboutImg1, alt: 'img1' },
@@ -21,7 +21,7 @@ const About = () => {
             bg: "",
             title: 'It is a privately owned Information and cyber security company',
             text: "Adipiscing elit Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat.",
-            order:true,
+            order:false,
             ImgCarousel: false,
             CarouselImges: [],
             ImgSrc: AboutImg2
@@ -30,7 +30,7 @@ const About = () => {
             bg: "bg-themeLight dark:bg-themeDark",
             title: 'It’s a team of experienced and skilled people with distributions',
             text: "Adipiscing elit Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat.",
-            order:false,
+            order:true,
             ImgCarousel: false,
             CarouselImges: [],
             ImgSrc: AboutImg1
@@ -39,7 +39,7 @@ const About = () => {
             bg: "",
             title: 'A company standing different from others',
             text: "Adipiscing elit Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat.",
-            order:true,
+            order:false,
             ImgCarousel: false,
             CarouselImges: [],
             ImgSrc: AboutImg2
