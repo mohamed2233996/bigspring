@@ -18,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${oxygen.className} dark:bg-gray-800 dark:text-white antialiased`}>
+      <body className={`${oxygen.className} dark:bg-gray-800 dark:text-white antialiased transition-all`}>
         <Header />
         {children}
       </body>

@@ -3,13 +3,13 @@ import featuresBoxs from '@/data/featuresData';
 
 const Features = () => {
     return (
-        <section className='section bg-themeLight dark:bg-themeDark py-20'>
+        <section className='section bg-themeLight dark:bg-themeDark py-20 transition-all'>
             <div className="container m-auto">
                 <div className="flex flex-col xl:flex-row gap-6">
                     <div className="xl:w-1/3 w-full mb-0 xl:mb-4">
                         <div className="flex flex-col ">
                             <h2 className='text-4xl mb-4 font-bold'>The ultimate platform for creating, sharing, and executing.</h2>
-                            <p className='text-gray-500 mb-4'>We are helping thousands of organizations run their business strategies and achieve their ambitious results! We make big plans happen.</p>
+                            <p className='text-gray-500 dark:text-gray-300 mb-4'>We are helping thousands of organizations run their business strategies and achieve their ambitious results! We make big plans happen.</p>
                             <button className='py-2 px-4 text-lg rounded-3xl text-primary hover:text-white hover:bg-primary transition-all w-max  border border-primary'>Try for Free</button>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ const Features = () => {
                                             </span>
                                             <div>
                                                 <h3 className='text-xl font-bold mb-2'>{box.title}</h3>
-                                                <p className='text-gray-400 mb-4'>{box.description}</p>
+                                                <p className='text-gray-500 dark:text-gray-300 mb-4'>{box.description}</p>
                                             </div>
                                         </div>
                                     )

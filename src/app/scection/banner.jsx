@@ -64,10 +64,10 @@ const Banner = () => {
 
 
     return (
-        <div className='py-20'>
+        <div className='py-20 transition-all'>
             <div className="container m-auto flex items-center flex-col">
                 <h1 className="text-4xl text-center font-bold mb-4">Let us solve your critical website development challenges</h1>
-                <p className="text-sm text-gray-300 text-center mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque
+                <p className="text-sm text-gray-500 dark:text-gray-300 text-center mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque
                     totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus</p>
                 <Image src={bannerImg} width={750} height={395} alt='bannerImg' />
                 <p className='my-4 text-lg font-bold '>Let us solve your critical website development challenges</p>
