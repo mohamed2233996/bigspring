@@ -51,7 +51,7 @@ const Teams = () => {
                     <div className='text-center mt-20'>
                         {teamData?.map((img)=>{
                             return(
-                                <div className='p-6 m-4 bg-white rounded-lg shadow-lg inline-block transition hover:-translate-y-1'>
+                                <div key={img.id} className='p-6 m-4 bg-white rounded-lg shadow-lg inline-block transition hover:-translate-y-1'>
                                     <Image src={img.teamImg} alt={`team${img.id}`} />
                                 </div>
                             )
