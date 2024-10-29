@@ -16,10 +16,17 @@ const Header = () => {
     const [menuopened, setMenuopened] = useState(false)
 
     useEffect(() => {
-        if (theme === 'dark') {
-            document.documentElement.classList.add('dark');
+        const storedTheme = localStorage.getItem('theme');
+        if (storedTheme) {
+            setTheme(storedTheme);
+            if (theme === 'dark') {
+                document.documentElement.classList.add('dark');
+            }
+        } else {
+            localStorage.setItem('theme', 'light');
         }
-    }, []);
+    }, [theme]);
+
 
     const toggleTheme = () => {
         if (document.documentElement.classList.contains('dark')) {
@@ -38,7 +45,7 @@ const Header = () => {
     }
 
     return (
-        <div className ="sticky z-50 top-0 transition-all">
+        <div className="sticky z-50 top-0 transition-all">
             <Navbar fluid rounded>
                 <Navbar.Brand href="">
                     <Image src={

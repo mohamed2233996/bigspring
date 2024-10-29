@@ -1,6 +1,7 @@
 import "./globals.css";
 import Header from "@/components/header";
 import { Oxygen } from 'next/font/google'
+import MyFooter from "./scection/MyFooter";
 
 const oxygen = Oxygen({
   subsets: ['latin'],
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
       <body className={`${oxygen.className} dark:bg-gray-800 dark:text-white antialiased transition-all`}>
         <Header />
         {children}
+        <MyFooter />
       </body>
     </html>
   );
