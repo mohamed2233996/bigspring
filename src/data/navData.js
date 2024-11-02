@@ -9,7 +9,7 @@ const links = [
         text: "Company",
         href: "/",
         subLinks: [
-            { label: "About", href: "/about" },
+            { label: "About", href: "/About" },
             { label: "Team", href: "/Team" },
             { label: "How It Works", href: "/HowItWorks" },
             { label: "Career", href: "/Career" },

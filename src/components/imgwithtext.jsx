@@ -12,7 +12,7 @@ const Imgwithtext = (prop) => {
         <div className={`py-24 ${prop.bg}`}>
             <div className="container m-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-                    <div className={`lg:${prop.order ? "order-1" : "order-none"}`}>
+                    <div className={`lg:${prop.order ? "order-1" : "order-none"} rounded-md overflow-hidden`}>
                         {ImgCarousel ?
                             <Carousel className='h-[300px] sm:h-[450px]' leftControl=' ' rightControl=' '>
                                 {CarouselImges.map((img, index) => (

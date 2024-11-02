@@ -1,11 +1,11 @@
 import Image from "next/image";
-import Banner from "./scection/banner";
-import Features from "./scection/features";
-import Video from "./scection/video";
-import About from "./scection/about";
-import Opinions from "./scection/opinions";
-import Teams from "./scection/teams";
-import Contact from "./scection/Contact";
+import Banner from "../section/banner";
+import Features from "../section/features";
+import Video from "../section/video";
+import About from "../section/about";
+import Opinions from "../section/opinions";
+import Teams from "../section/teams";
+import Contact from "../section/Contact";
 
 export default function Home() {
   return (

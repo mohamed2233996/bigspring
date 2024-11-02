@@ -1,7 +1,7 @@
 import "./globals.css";
 import Header from "@/components/header";
 import { Oxygen } from 'next/font/google'
-import MyFooter from "./scection/MyFooter";
+import MyFooter from "../section/MyFooter";
 
 const oxygen = Oxygen({
   subsets: ['latin'],

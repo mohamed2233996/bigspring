@@ -22,4 +22,13 @@ const opinions =[
     }
 ]
 
+const aboutOpinion ={
+    name: 'Charles Dickens',
+    location: "The Founder, Bigspring LLC",
+    img:opinion1 ,
+    comment: 'We’re changing how product managers, developers, and data scientists plan, track, and govern analytics across organizations. Before Avo, teams were forced to choose between product delivery speed and reliable insights.',
+}
+
 export default opinions;
+
+export { aboutOpinion };
