@@ -3,7 +3,7 @@ import React from 'react';
 import aboutImg from "@/imges/about.webp"
 import { aboutOpinion } from '@/data/opinionsData';
 import Image from 'next/image';
-import OurNumbers from '@/section/ourNumbers';
+import OurNumbers from '@/app/_section/ourNumbers';
 
 const Page = () => {
     return (
