@@ -4,6 +4,8 @@ import aboutImg from "@/imges/about.webp"
 import { aboutOpinion } from '@/data/opinionsData';
 import Image from 'next/image';
 import OurNumbers from '@/app/_section/ourNumbers';
+import Features2 from '../_section/features2';
+import OurOffice from '../_section/ourOffice';
 
 const Page = () => {
     return (
@@ -38,8 +40,10 @@ const Page = () => {
                         </div>
                     </div>
                 </div>
-                <OurNumbers />
             </section>
+            <OurNumbers />
+            <Features2 />
+            <OurOffice />
         </>
     );
 }

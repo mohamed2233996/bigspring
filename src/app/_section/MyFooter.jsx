@@ -22,7 +22,7 @@ const MyFooter = () => {
     }, [])
 
     return (
-
+<div className='bg-themeLight dark:bg-themeDark '>
         <Footer container>
             <div className="w-full">
                 <div className="grid grid-cols-1 items-center w-full justify-between md:grid-cols-4">
@@ -75,6 +75,7 @@ const MyFooter = () => {
                 </div>
             </div>
         </Footer>
+        </div>
     );
 }
 export default MyFooter;
