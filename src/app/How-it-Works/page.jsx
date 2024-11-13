@@ -29,7 +29,7 @@ const Page = () => {
             />
             <div className='relative after:absolute after:h-[calc(100%-500px)] lg:after:w-[1px] after:bg-primary after:right-1/2 after:top-[250px]'>
                 {lineData?.map((item) => (
-                    <div className="relative after:absolute lg:after:w-8 after:h-8 after:bg-primary after:rounded-full after:right-1/2 after:bottom-[calc(100%-250px)] after:translate-x-1/2">
+                    <div key={item.kay} className="relative after:absolute lg:after:w-8 after:h-8 after:bg-primary after:rounded-full after:right-1/2 after:bottom-[calc(100%-250px)] after:translate-x-1/2">
                         <Imgwithtext
                             bg={`${item.scendBg ? 'bg-themeLight dark:bg-themeDark' : ''}`}
                             title={item.headingText}
