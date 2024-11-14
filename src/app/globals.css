@@ -46,3 +46,8 @@ body {
 .playBtn:hover{
   background-color: var(--primary);
 }
+
+.careerBox:hover .careerLink{
+margin-left: 10px;
+
+}
