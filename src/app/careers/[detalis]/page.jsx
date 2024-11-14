@@ -111,7 +111,7 @@ const Page = ({ params }) => {
                             <div className='flex flex-col gap-6'>
                                 {Careers.slice(0, 4).map((item) => {
                                     return (
-                                        <Link href={""} className='flex flex-col px-4 py-5 rounded-lg shadow-md border border-gray-300 hover:shadow-lg hover:-translate-y-2 transition-all'>
+                                        <Link key={item.id} href={""} className='flex flex-col px-4 py-5 rounded-lg shadow-md border border-gray-300 hover:shadow-lg hover:-translate-y-2 transition-all'>
                                             <h3 className="font-bold mb-4">{item.title}</h3>
                                             <p className="text-gray-600 dark:text-gray-300">{`${item.time} | ${item.type}`}</p>
                                         </Link>
