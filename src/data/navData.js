@@ -12,7 +12,7 @@ const links = [
             { label: "About", href: "/About" },
             { label: "Team", href: "/Team" },
             { label: "How It Works", href: "/How-it-Works" },
-            { label: "Career", href: "/Career" },
+            { label: "careers", href: "/careers" },
         ],
     },
     {
