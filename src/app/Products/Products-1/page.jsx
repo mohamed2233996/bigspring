@@ -31,8 +31,8 @@ const Page = () => {
             />
             <section className='py-20 transition-all'>
                 <div className="container m-auto">
-                    <h2 className='text-4xl font-bold text-center mb-8 leading-[3rem]'>CRM for every business,<br />for every industry</h2>
-                    <p className='text-gray-600 dark:text-gray-300 mb-4 text-center w-1/2 m-auto'>CRM brings the best of general-purpose solutions and vertical solutions under one roof. We're empowering you to redesign the user interface of the CRM, and create a personalized instance that meets your specific requirements and preferences</p>
+                    <h2 className='text-4xl font-bold text-center mb-8 leading-[3rem]'>CRM for every business<br />for every industry</h2>
+                    <p className='text-gray-600 dark:text-gray-300 mb-4 text-center w-1/2 m-auto'>CRM brings the best of general purpose solutions and vertical solutions under one roof. We're empowering you to redesign the user interface of the CRM and create a personalized instance that meets your specific requirements and preferences</p>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-14">
                         <div className="flex flex-col items-start gap-8">
                             <FaBlenderPhone className='text-primary text-[50px]' />
