@@ -2,10 +2,13 @@ import React from 'react';
 import announcement from '@/imges/announcement.svg';
 import Image from 'next/image';
 
-const Contact = () => {
+const Contact = (props) => {
     return (
         <section className='section py-20 transition-all'>
+            {props.noImg? "":
             <Image src={announcement} alt="announcement" />
+            }
+            
             <div className="container m-auto pt-20">
                 <div className="flex flex-col items-center">
                     <h2 className='text-4xl mb-6 font-bold'>Ready to get started?</h2>

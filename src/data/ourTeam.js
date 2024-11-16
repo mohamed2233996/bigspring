@@ -47,7 +47,7 @@ const ourTeam =[
         name: 'Karen Brown',
         position: 'UX/UI Designer',
         image: Member8,
-    }
+    },
 ]
 
 export default ourTeam
