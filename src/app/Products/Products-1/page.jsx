@@ -1,7 +1,7 @@
 import React from 'react';
 import img1 from '@/imges/videoT-About.webp'
 import Imgwithtext from '@/components/imgwithtext';
-import { FaBlenderPhone FaSync } from "react-icons/fa";
+import { FaBlenderPhone ,FaSync } from "react-icons/fa";
 import img2 from '@/imges/about1.webp'
 import img3 from '@/imges/about2.webp'
 import videoThumnail from '@/imges/videoT-About.webp'
