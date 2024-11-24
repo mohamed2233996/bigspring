@@ -96,7 +96,7 @@ const links = [
         href: "/Blog",
         subLinks: [
             { label: "Blog Post", href: "/Blog" },
-            { label: "Author", href: "/Author" },
+            { label: "Author", href: "/Blog/authors" },
         ],
     },
     {

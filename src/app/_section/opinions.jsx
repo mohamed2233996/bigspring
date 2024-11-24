@@ -1,7 +1,5 @@
 import { Carousel } from 'flowbite-react';
 import React from 'react';
-import opinion1 from "@/imges/op1.webp"
-import opinion2 from "@/imges/op2.webp"
 import Image from 'next/image';
 import opinions from '@/data/opinionsData';
 
