@@ -8,7 +8,7 @@ const Page = () => {
     const selectPost = Posts[4]
 
     return (
-        <div className='py-20 transition-all'>
+        <div className='py-20 transition-all' data-aos="zoom-in">
             <div className="container m-auto flex items-center flex-col">
                 <h1 className="text-4xl text-center font-bold mb-4">Latest News</h1>
                 <p className="text-sm text-gray-500 dark:text-gray-300 text-center mb-6">Read all latest blog posts</p>

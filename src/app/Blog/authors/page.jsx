@@ -24,7 +24,7 @@ const Page = () => {
 
 
     return (
-        <div className='py-20 transition-all'>
+        <div className='py-20 transition-all' data-aos="zoom-in">
             <div className="container m-auto flex items-center flex-col">
                 <h1 className="text-4xl text-center font-bold mb-8">Author</h1>
                 {
