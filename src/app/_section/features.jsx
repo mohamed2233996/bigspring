@@ -3,7 +3,7 @@ import featuresBoxs from '@/data/featuresData';
 
 const Features = () => {
     return (
-        <section className='section bg-themeLight dark:bg-themeDark py-20 transition-all'>
+         <section data-aos="fade-up">
             <div className="container m-auto">
                 <div className="flex flex-col xl:flex-row gap-6">
                     <div className="xl:w-1/3 w-full mb-0 xl:mb-4">

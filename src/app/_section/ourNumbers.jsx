@@ -28,7 +28,7 @@ const OurNumbers = () => {
     }, [counts]);
 
     return (
-        <section className='py-20 transition-all'>
+         <section data-aos="fade-up"  className='py-20 transition-all'>
             <div className="container m-auto">
                 <div className="flex items-center flex-wrap justify-center gap-10">
                     {

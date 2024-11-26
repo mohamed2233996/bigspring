@@ -41,7 +41,7 @@ const Teams = () => {
     ]
 
     return (
-        <section className='section py-20 transition-all'>
+         <section data-aos="fade-up"  className='section py-20 transition-all'>
             <div className="container m-auto">
                 <div className="flex items-center flex-col">
                     <div className="lg:w-1/2 text-center">

@@ -27,7 +27,7 @@ const Page = () => {
                 btnText={"Try for Free"}
                 btnLink={"/contact"}
             />
-            <section className='py-20 bg-themeLight dark:bg-themeDark transition-all'>
+             <section data-aos="fade-up"  className='py-20 bg-themeLight dark:bg-themeDark transition-all'>
                 <div className="container m-auto">
                     <h2 className='w-1/4 font-bold text-3xl mb-6'>New experiments Launch in minutes</h2>
                     <p className='w-1/2 text-gray-600 dark:text-gray-300 mb-4'>Both non-technical and technical users can design and launch new experiments quickly. Distinctio cumque totam explicabo, quia minima quae esse! Laudantium impedit ratione dignissimos.</p>

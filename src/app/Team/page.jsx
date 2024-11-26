@@ -13,7 +13,7 @@ const Page = () => {
                     <div className="grid gap-8 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-14">
                         {ourTeam?.map((person , key)=>{
                             return (
-                                <div key={key} className='flex items-center flex-col rounded-lg overflow-hidden'>
+                                <div key={key}  data-aos="zoom-in" className='flex items-center flex-col rounded-lg overflow-hidden'>
                                     <Image className='' src={person.image} alt={person.name} />
                                     <h3 className='text-2xl font-bold my-2'>{person.name}</h3>
                                     <p className='text-gray-600 dark:text-gray-300 mb-4'>{person.position}</p>

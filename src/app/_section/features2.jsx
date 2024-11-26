@@ -3,7 +3,7 @@ import React from 'react';
 
 const Features2 = () => {
     return (
-        <section className='section bg-themeLight dark:bg-themeDark py-20 transition-all'>
+         <section data-aos="fade-up"  className='section bg-themeLight dark:bg-themeDark py-20 transition-all'>
             <div className="container m-auto">
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
                     {

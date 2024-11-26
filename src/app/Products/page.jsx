@@ -10,7 +10,7 @@ const Page = () => {
 
 
     return (
-        <div className='py-24 transition-all'>
+        <div data-aos="fade-up" className='py-24 transition-all'>
             <div className="container m-auto">
                 <h1 className="text-5xl text-center font-bold mb-4">All Products</h1>
                 <p className='text-gray-600 dark:text-gray-300 mb-4 text-center'>The Operation System for your Business</p>

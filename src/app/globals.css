@@ -24,11 +24,6 @@ body {
   }
 }
 
-.navLink li:hover a,
-.navLink button:hover {
-  color: var(--primary)
-}
-
 .playBtn:hover>span{
   width: 100%;
   height: 100%;

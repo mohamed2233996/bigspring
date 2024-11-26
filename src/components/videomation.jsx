@@ -20,7 +20,7 @@ const Videomation = (prop) => {
     }, []);
 
     return (
-        <section className='section py-20'>
+         <section data-aos="zoom-in" className='section py-20'>
             <div className="container m-auto">
                 <div className="flex flex-col items-center">
                     <h2 className='text-3xl mb-4 font-bold'>{prop.headingText}</h2>

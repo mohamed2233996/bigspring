@@ -45,7 +45,7 @@ const Header = () => {
     }
 
     return (
-        <div className="sticky z-50 top-0 transition-all">
+        <div data-aos="fade-down" className="sticky z-50 top-0 transition-all">
             <Navbar fluid rounded>
                 <Navbar.Brand href="/">
                     <Image src={

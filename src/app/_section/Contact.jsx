@@ -4,9 +4,9 @@ import Image from 'next/image';
 
 const Contact = (props) => {
     return (
-        <section className='section py-20 transition-all'>
+         <section data-aos="fade-up"  className='section py-20 transition-all'>
             {props.noImg? "":
-            <Image src={announcement} alt="announcement" />
+            <Image src={announcement} className='m-auto w-full' alt="announcement" />
             }
             
             <div className="container m-auto pt-20">

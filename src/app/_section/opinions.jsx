@@ -5,7 +5,7 @@ import opinions from '@/data/opinionsData';
 
 const Opinions = () => {
     return (
-        <section className='section bg-themeLight dark:bg-themeDark py-20 transition-all'>
+         <section data-aos="fade-up"  className='section bg-themeLight dark:bg-themeDark py-20 transition-all'>
             <div className="container m-auto">
                 <div className="flex items-center flex-col">
                     <div className="lg:w-1/2 text-center">

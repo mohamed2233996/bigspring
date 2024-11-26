@@ -4,7 +4,7 @@ import React from 'react';
 
 const Page = () => {
     return (
-        <div className='py-20 transition-all'>
+        <div data-aos="zoom-in" className='py-20 transition-all'>
             <div className="container m-auto flex items-center flex-col">
                 <h1 className="text-5xl text-center font-bold mb-4">Career</h1>
                 <p className="text-sm text-gray-500 dark:text-gray-300 text-center mb-6">Give your team the design mindset & design tools</p>

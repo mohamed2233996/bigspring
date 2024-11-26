@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 const OurOffice = () => {
     return (
-        <section className='py-20 transition-all'>
+         <section data-aos="fade-up"  className='py-20 transition-all'>
             <div className="container m-auto">
                 <div className='flex justify-center flex-wrap'>
                     <div className='p-4 xl:w-1/4 lg:w-1/3 sm:w-1/2'>

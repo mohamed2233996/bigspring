@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Banner from "./_section/banner";
 import Features from "./_section/features";
 import Video from "./_section/video";

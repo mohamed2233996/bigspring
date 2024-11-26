@@ -9,7 +9,7 @@ const Page = ({ params }) => {
         return <div>No career found</div>;
     }
     return (
-        <div className='py-20 transition-all'>
+        <div data-aos="fade-up" className='py-20 transition-all'>
             <div className="container m-auto flex items-center flex-col">
                 <h1 className="text-5xl text-center font-bold mb-20">{career.title}</h1>
                 <div className='flex flex-col justify-between lg:flex-row gap-8'>

@@ -100,19 +100,6 @@ const links = [
         ],
     },
     {
-        key:5,
-        text: "Pages",
-        href: "/Pages",
-        subLinks: [
-            { label: "Pricing", href: "/Pricing" },
-            { label: "Case Studies", href: "/CaseStudies" },
-            { label: "FAQ", href: "/FAQ" },
-            { label: "Privacy Policy", href: "/PrivacyPolicy" },
-            { label: "Terms & Condition", href: "/TermsAndCondition" },
-            { label: "404", href: "/404" },
-        ],
-    },
-    {
         text: "Contact",
         href: "/Contact",
     }

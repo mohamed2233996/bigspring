@@ -22,7 +22,7 @@ const MyFooter = () => {
     }, [])
 
     return (
-        <Footer className='bg-themeLight dark:bg-themeDark py-20' container >
+        <Footer data-aos="fade-up" className='bg-themeLight dark:bg-themeDark py-20' container >
             <div className="w-full">
                 <div className="grid grid-cols-1 items-center w-full justify-between md:grid-cols-4">
                     <div className="grid grid-cols-2 md:col-span-3 gap-8 sm:mt-4 sm:grid-cols-3 mb-6 md:mb-0 sm:gap-6">

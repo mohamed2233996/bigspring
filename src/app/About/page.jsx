@@ -17,7 +17,7 @@ const Page = () => {
                 ImgCarousel={false}
                 ImgSrc={aboutImg}
             />
-            <section className='bg-themeLight dark:bg-themeDark py-20 transition-all'>
+             <section data-aos="fade-up" className='bg-themeLight dark:bg-themeDark py-20 transition-all'>
                 <div className="container m-auto">
                     <div className='flex items-center flex-col gap-10'>
                         <p className='text-xl w-1/2 text-center font-bold'>{aboutOpinion.comment}</p>

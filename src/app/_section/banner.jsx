@@ -12,8 +12,6 @@ import img6 from '@/imges/6.webp'
 // import { Swiper, SwiperSlide } from 'swiper/react';
 // import { Autoplay} from 'swiper/modules';
 
-import 'swiper/css';
-
 
 
 
@@ -64,7 +62,7 @@ const Banner = () => {
 
 
     return (
-        <div className='py-20 transition-all'>
+        <div data-aos="zoom-in" className='py-20 transition-all'>
             <div className="container m-auto flex items-center flex-col">
                 <h1 className="text-4xl text-center font-bold mb-4">Let us solve your critical website development challenges</h1>
                 <p className="text-sm text-gray-500 dark:text-gray-300 text-center mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque
